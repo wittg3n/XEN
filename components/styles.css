@@ -1,0 +1,23 @@
+.link-underline {
+  position: relative;
+  @apply font-semibold
+}
+
+.link-underline::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  background: white;
+  transition: width 0.5s;
+  margin-top: 100px;
+}
+
+.link-underline:hover::after {
+  width: 100%;
+}
+svg {
+  @apply cursor-pointer;
+}
