@@ -6,7 +6,7 @@ function dashboard({ params }) {
   return (
     <div className='flex justify-center'>
       <h1>welcom {params.userId}</h1>
-
+      <hi>asdasd</hi>
     </div>
   );
 }
